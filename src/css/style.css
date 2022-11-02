@@ -1,0 +1,81 @@
+body { 
+    font-family: "Open Sans", sans-serif;
+    background: url("../img/background-img.jpg") no-repeat center center fixed; 
+    background-size: cover;
+}
+
+.main{
+    background-image: linear-gradient(to top, #364C59 , #172126, #0C0D0A);
+    margin:2em;
+    border-radius:20px;
+    --bs-gutter-x: 0em;
+    opacity: 100%;
+    box-shadow: black 2px 2px 5px;
+}
+
+.container{
+    --bs-gutter-x: 0em !important;
+}
+
+.main .secondary{
+    padding-left:4em;
+    padding-right:4em;
+}
+
+.navbar{
+    border-radius: 20px 20px 0px 0px;
+    font-size: 1em;
+    box-shadow: black 2px 2px 5px;
+}
+
+.card-body hr{
+    color:#e88800 !important;
+}
+
+div small{
+    color:#e88800;
+}
+
+.card:hover{
+    transform: scale(1.05);
+    box-shadow: black 2px 0px 10px;
+    transition:0.5s;
+    cursor:pointer;
+}
+
+.card:hover img{
+    filter:brightness(0.7);
+}
+
+.card:hover .btn{
+    filter:brightness(0.8);
+}
+
+.carousel-inner .author{
+    background-color:#e88800;
+    box-shadow: black 2px 2px 5px;
+    border-radius: 5px;
+    padding:5px;
+}
+
+.carousel-inner img{
+    filter: brightness(0.6);
+}
+
+.carousel:hover img{
+    filter:brightness(0.65);
+    cursor:pointer;
+}
+
+.transparent .row{
+    background: url("../img/background-img.jpg") no-repeat center center fixed; 
+    background-size: cover;
+    filter:blur(0px);
+    border-radius: 5px;
+    --bs-gutter-x:0em !important;
+}
+
+.btn-light{
+    filter: blur(0px);
+    z-index: 2;
+}
