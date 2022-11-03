@@ -28,6 +28,11 @@ body {
     box-shadow: black 2px 2px 5px;
 }
 
+.infinite-scroll-component{
+    height:max-content;
+    overflow:visible;
+}
+
 .card-body hr{
     color:#e88800 !important;
 }
